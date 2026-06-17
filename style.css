@@ -1,0 +1,428 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html , body{
+height: 100%;
+width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+
+
+.left i{
+        margin-left: -15px;
+    }
+
+
+.left h6{
+    font-size: 15px;
+}
+.left img{
+    height: 50px;
+    width: 130px;
+    object-fit: cover;
+}
+
+.right #one{
+height: 50px;
+width: 120px;
+border-radius: 10px;
+background-color: transparent;
+border: none;
+font-size: 20px;
+}
+
+.right #two{
+    height: 50px;
+width: 90px;
+border-radius: 30px;
+background-color: black;
+color: white;
+}
+
+.heading{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.headings h1{
+    font-size: 90px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.headings p{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.headings input{
+    height: 80px;
+    width: 800px;
+    border-radius: 50px;
+   padding-left: 20px;
+   margin-top: 20px;
+   font-size: 15px;
+   background-color: #f3f3f6;
+   display: flex;
+   border: none;
+}
+.headings h6{
+    position: absolute;
+    top: 65.5%;
+    right: 30%;
+ padding-top: 15px;
+ font-size: 20px;
+
+}
+
+.headings input:hover{
+    background-color: #ffffff;
+}
+#icon{
+height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 64.5%;
+    right: 25%;
+ padding-top: 15px;
+ font-size: 40px;
+ border-radius: 50%;
+ background-color: rgb(236 94 149) ;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 10px;
+
+}
+.ri-search-line{
+    
+      position: relative;
+    top: -12px;
+  padding-top: 15px;
+ font-size: 30px;
+ border-radius: 50%; 
+}
+
+.center-bottom{
+    margin-top: 0;
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+   
+    gap: 20px;
+    position: relative;
+    top: 10px;
+
+}
+#front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 10px;
+    
+}
+#special{
+    color: #a1a1aa;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.middle .h2{
+    height: 30px;
+   
+    background-color: #f3f3f6;
+    border-radius: 50px;
+   padding: 2.5px 5px;
+}
+.middle .h2:hover{
+    background-color: #ffffff;
+}
+
+.center-nav{
+    height: 50px;
+    width: 100%;
+   
+    padding: 0 60px;
+    
+}
+
+.btn-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.ceneter-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#left-btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    
+}
+
+
+#filter{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+      border-radius: 10px
+}
+
+#special2{
+    /* height: 40px; */
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.page2{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.page2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#top{
+transition: all 1s ease;
+     
+}
+#top img{
+    height: 256.5;
+    width: 354px;
+    border-radius: 10px;
+}
+.video{
+   
+    width: 354px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.page2-mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-top: 20px;
+}
+ 
+.page2-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   margin-top: 20px;
+}
+
+#mid img{
+    height: 256.5px;
+    width: 354px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#bottom img{
+    height: 256.5px;
+    width: 354px;
+      border-radius: 20px;
+}
+
+.info{
+   height: 50px;
+   width: 354px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#img-icon{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#img-icon img{
+    height: 15px;
+    width: 15px;
+   
+    /* border-radius: 50%; */
+    
+}
+h6{
+    font-size: 12px;
+}
+
+#img-icon button{
+    height: 20px;
+    width: 45px;
+    gap: 10px;
+}
+
+
+.singup-for{
+    height: 100%;
+    width: 100%;
+    /* margin-top: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inside{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: cover;
+}
+
+.animation{
+    height: 10%;
+    width: 100%;
+    margin-top: -15%;
+  position: relative;
+  padding: 50px;
+  
+    
+}
+
+.animation1 img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+   padding: 20px;
+  
+}
+
+.animation1::-webkit-scrollbar{
+    display: none;
+}
+.animation1{
+    white-space: nowrap;
+    overflow-x: auto;
+      
+        gap: 20px;
+        padding: 10px;
+
+
+}
+.con{
+    padding: 30px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes moving {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+
+
+
+
+.fotter{
+    height: 40%;
+    width: 100%;
+    
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+.fotter img{
+    height: 150px;
+    width: 200px;
+}
+.fotter-icon{
+    display: flex;
+}
+
+.fotter-icon i{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+.fotter-bottom{
+    height: 10%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    
+}
+
+.fotter-left{
+    display: flex;
+   gap: 20px;
+    color: #a1a1aa;
+}
+.fotter-right{
+    display: flex;
+    gap: 20px;
+    color: #a1a1aa;
+}
+
